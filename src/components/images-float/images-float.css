@@ -1,0 +1,14 @@
+.img-float img:first-of-type {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.img-float img:first-of-type,
+.img-float img:last-of-type {
+    width: 500px;
+}
+.img-float img:last-of-type {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
