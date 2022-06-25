@@ -1,1 +1,1 @@
-# princing-component
+# Pricing Component with React
