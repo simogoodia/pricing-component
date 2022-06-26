@@ -5,7 +5,8 @@
 }
 .img-float img:first-of-type,
 .img-float img:last-of-type {
-    width: 500px;
+    width: 250px;
+    z-index: -999;
 }
 .img-float img:last-of-type {
     position: absolute;

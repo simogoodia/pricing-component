@@ -1,0 +1,68 @@
+.App {
+    text-align: center;
+}
+.App h2.heading {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.App .switch {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.App .switch label {
+    background-color: #7E82E4;
+    width: 70px;
+    height: 30px;
+    border-radius: 50px;
+    position: relative;
+    cursor: pointer;
+}
+.App .switch {
+    width: 250px;
+}
+.App .switch label .ball {
+    background-color: #fff;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    animation: slideBallOff 0.3s linear forwards;
+}
+.App .switch input {
+    display: none;
+}
+.App .switch input:checked + label .ball {
+    animation: slideBallOn 0.3s forwards linear;
+}
+@keyframes slideBallOff {
+    0% {
+        transform: translateX(-40px) scale(1);
+    }
+    50% {
+        transform: translateX(-20px) scale(1.2);
+    }
+    100% {
+        transform: translateX(0) scale(1);
+    }
+}
+@keyframes slideBallOn {
+    0% {
+        transform: translateX(0) scale(1);
+    }
+    50% {
+        transform: translateX(-20px) scale(1.2);
+    }
+    100% {
+        transform: translateX(-40px) scale(1);
+    }
+}
+@media screen and (max-width: 768px) {
+    .App h2.heading {
+        padding-top: 2.5rem;
+    }
+}

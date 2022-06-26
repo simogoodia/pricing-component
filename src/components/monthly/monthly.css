@@ -1,0 +1,77 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrapper .box {
+    background-color: #fff;
+    box-shadow: 1px 3px 8px rgba(1, 1, 1, 0.4);
+    padding: 20px;
+    width: 310px;
+    max-width: 100%;
+}
+.wrapper .box h4,
+.wrapper .box h2 {
+    margin-bottom: 15px;
+}
+.wrapper .box h2 {
+    font-weight: bold;
+    font-size: 40px;
+}
+.wrapper .box button {
+    background-color: #7E82E4;
+    color: #fff;
+    padding: 15px 0;
+    outline: 0;
+    border: 0;
+    width: 100%;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.wrapper .box.basic {
+    border-radius: 10px 0 0 10px;
+}
+.wrapper .box.pro {
+    border-radius: 10px;
+    transform: scale(1.060);
+    background-color: #7E82E4;
+    color: #fff;
+}
+.wrapper .box.pro button {
+    background-color: #fff;
+    color: #7E82E4;
+}
+.wrapper .box.master {
+    border-radius: 0 10px 10px 0;
+}
+ul {
+    list-style: none;
+}
+.wrapper .box ul {
+    margin-bottom: 10px;
+}
+.wrapper .box ul li {
+    padding: 10px 0;
+}
+.wrapper .box ul li:first-child {
+    padding-top: 0;
+}
+.wrapper .box ul li:not(:first-child) {
+    border-top: 1px solid #EDEDED;
+}
+@media screen and (max-width: 968px) {
+    .wrapper {
+        display: block;
+    }
+    .wrapper .box {
+        margin: 0 auto 30px;
+    }
+    .wrapper .box.basic {
+        border-radius: 10px;
+    }
+    .wrapper .box.pro {
+        transform: scale(1);
+    }
+    .wrapper .box.master {
+        border-radius: 10px;
+    }
+}
