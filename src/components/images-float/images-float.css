@@ -1,5 +1,5 @@
 .img-float img:first-of-type {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
 }
@@ -9,7 +9,7 @@
     z-index: -999;
 }
 .img-float img:last-of-type {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
 }

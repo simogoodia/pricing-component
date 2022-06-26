@@ -7,11 +7,15 @@
     box-shadow: 1px 3px 8px rgba(1, 1, 1, 0.4);
     padding: 20px;
     width: 310px;
+    height: 400px;
     max-width: 100%;
+}
+.wrapper .box h4 {
+    font-size: 22px;
 }
 .wrapper .box h4,
 .wrapper .box h2 {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 .wrapper .box h2 {
     font-weight: bold;
@@ -57,10 +61,10 @@ ul {
     list-style: none;
 }
 .wrapper .box ul {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .wrapper .box ul li {
-    padding: 10px 0;
+    padding: 20px 0;
 }
 .wrapper .box ul li:first-child {
     padding-top: 0;
