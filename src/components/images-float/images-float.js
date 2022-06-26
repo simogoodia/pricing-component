@@ -4,8 +4,8 @@ import "./images-float.css";
 function ImgFloat() {
     return (
         <div className="img-float">
-            <img src="../images/bg-top.svg" />
-            <img src="../images/bg-bottom.svg" />
+            <img src="./images/bg-top.svg" />
+            <img src="./images/bg-bottom.svg" />
         </div>
     );
 }
