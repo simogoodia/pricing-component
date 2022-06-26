@@ -22,10 +22,15 @@
     color: #fff;
     padding: 15px 0;
     outline: 0;
-    border: 0;
+    border: 1px solid #7E82E4;
     width: 100%;
     border-radius: 9px;
     cursor: pointer;
+    transition: 0.3s ease;
+}
+.wrapper .box button:hover {
+    background-color: transparent;
+    color: #7E82E4;
 }
 .wrapper .box.basic {
     border-radius: 10px 0 0 10px;
@@ -39,6 +44,11 @@
 .wrapper .box.pro button {
     background-color: #fff;
     color: #7E82E4;
+}
+.wrapper .box.pro button:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
 }
 .wrapper .box.master {
     border-radius: 0 10px 10px 0;

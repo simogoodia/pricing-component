@@ -19,6 +19,10 @@
     border-radius: 50px;
     position: relative;
     cursor: pointer;
+    transition: 0.3s ease;
+}
+.App .switch label:hover {
+    background-color: #C6C9F4;
 }
 .App .switch {
     width: 250px;
